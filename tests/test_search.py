@@ -16,4 +16,5 @@ def test_product_add(driver):
     product=Products(driver)
     print("dint went")
     product.product_add_cart("blue top")
+    print("all is well")
 
