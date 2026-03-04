@@ -2,15 +2,26 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+import os
+
 
 @pytest.hookimpl(hookwrapper=True)
-def Pytest_runtest_makereport(item,call):
-        outcome=yield
-        report=outcome.get_result()
-        if report.when=="call"and report.failed:
-                driver=item.funcargs.get("driver")
-                if driver:
-                        driver.save_screeshot(f"screenshot/{item.name}.png")
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+
+    print("HOOK EXECUTED:", report.when, report.failed)
+
+    if report.when == "call" and report.failed:
+        print("TEST FAILED")
+        print("FUNCARGS:", item.funcargs)
+
+        driver = item.funcargs.get("driver")
+        print("DRIVER:", driver)
+
+        if driver:
+            os.makedirs("screenshots", exist_ok=True)
+            driver.save_screenshot(f"screenshots/{item.name}.png")
 @pytest.fixture(scope='session')
 def driver():
     options = webdriver.ChromeOptions()
@@ -30,13 +41,10 @@ def driver():
 
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
-        options=options   # 🔥 THIS WAS MISSING
+        options=options
     )
 
-    # Remove webdriver flag
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
+
 
     yield driver
     driver.quit()
