@@ -4,17 +4,12 @@ from pages.product_page import Products
 import pytest
 import time
 @pytest.mark.order(2)
-
-def test_product_add(driver):
-    home=HomePage(driver)
+def test_product_add(driver, search_data):
+    home = HomePage(driver)
     home.load()
-    print("Finding Products link...")
     home.go_to_products()
 
+    product_page = Products(driver)
 
-    print("clickrf thr product")
-    product=Products(driver)
-    print("dint went")
-    product.product_add_cart("blue top")
-    print("all is well")
-
+    for product in search_data:   # iterate through all products
+        product_page.product_add_cart(product["name"])

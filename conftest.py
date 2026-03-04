@@ -1,8 +1,12 @@
+import json
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import os
+
+from programs.loggig import users
 
 
 @pytest.hookimpl(hookwrapper=True)
@@ -48,3 +52,16 @@ def driver():
 
     yield driver
     driver.quit()
+
+
+@pytest.fixture
+def login_data():
+    with open("test_data/login_data.json") as f:
+        data = json.load(f)
+    return data["users"]
+
+@pytest.fixture
+def search_data():
+    with open("test_data/search_data.json")as f:
+          data=json.load(f)
+    return data["products"]
