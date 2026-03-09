@@ -43,7 +43,7 @@ def driver(request):
         options.add_argument("--disable-infobars")
         options.add_argument("--start-maximized")
         options.add_argument("--disable-notifications")
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
 
@@ -58,7 +58,7 @@ def driver(request):
 
     elif browser == "firefox":
         options = Options()
-        options.binary_location = "/snap/bin/firefox"
+        options.binary_location = "user/bin/firefox"
 
         options.add_argument("--headless")
         options.add_argument("--no-sandbox")
