@@ -58,13 +58,11 @@ def driver(request):
 
     elif browser == "firefox":
         options = Options()
-        options.binary_location = "user/bin/firefox"
-
         options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        driver = webdriver.Firefox(
-            service=FirefoxService(GeckoDriverManager().install()),options=options)
+
+        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=options)
 
     else:
         raise Exception("Browser not supported")
