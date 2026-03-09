@@ -4,7 +4,9 @@ import pytest
 from pages.login_page import Login_page
 from pages.home_page import HomePage
 
+from utils.logger import setup_logger
 
+logger = setup_logger()
 @pytest.mark.order(1)
 def test_login(driver, login_data):   # login_data is a fixture returning list of users
     for user in login_data:

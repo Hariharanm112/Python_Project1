@@ -1,0 +1,260 @@
+2026-03-04 16:52:12,895 - INFO - ====== WebDriver manager ======
+2026-03-04 16:52:12,940 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 16:52:13,109 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 16:52:13,299 - INFO - Driver [/home/gms/.wdm/drivers/chromedriver/linux64/136.0.7103.113/chromedriver-linux64/chromedriver] found in cache
+2026-03-04 16:52:13,640 - INFO - Starting test_product_add
+2026-03-04 16:52:13,641 - INFO - Loading home page
+2026-03-04 16:52:16,133 - INFO - Navigating to products page
+2026-03-04 16:52:16,134 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-04 16:52:18,737 - INFO - Click successful
+2026-03-04 16:52:18,737 - INFO - Adding product to cart: blue top
+2026-03-04 16:52:18,737 - INFO - Clicking element: ('tag name', 'body')
+2026-03-04 16:52:18,845 - INFO - Click successful
+2026-03-04 16:52:18,845 - INFO - Entering text 'blue top' into ('id', 'search_product')
+2026-03-04 16:52:18,947 - INFO - Clicking element: ('id', 'submit_search')
+2026-03-04 16:52:19,862 - INFO - Click successful
+2026-03-04 16:52:19,863 - INFO - Clicking element: ('xpath', "//div[@class='productinfo text-center']//a[@class='btn btn-default add-to-cart'][normalize-space()='Add to cart']")
+2026-03-04 16:52:19,918 - INFO - Click successful
+2026-03-04 16:52:19,919 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Continue Shopping')]")
+2026-03-04 16:52:20,610 - INFO - Click successful
+2026-03-04 16:52:20,610 - INFO - Completed test_product_add
+2026-03-04 17:08:22,898 - INFO - ====== WebDriver manager ======
+2026-03-04 17:08:22,943 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:08:23,043 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:08:23,131 - INFO - Driver [/home/gms/.wdm/drivers/chromedriver/linux64/136.0.7103.113/chromedriver-linux64/chromedriver] found in cache
+2026-03-04 17:08:23,438 - INFO - Starting test_product_add
+2026-03-04 17:08:23,438 - INFO - Loading home page
+2026-03-04 17:08:24,469 - INFO - Navigating to products page
+2026-03-04 17:08:24,469 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-04 17:08:34,728 - ERROR - Element not clickable: ('css selector', "a[href='/products']")
+2026-03-04 17:18:38,195 - INFO - ====== WebDriver manager ======
+2026-03-04 17:18:38,240 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:18:38,351 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:19:40,427 - INFO - ====== WebDriver manager ======
+2026-03-04 17:19:40,473 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:20:11,433 - INFO - ====== WebDriver manager ======
+2026-03-04 17:20:11,485 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:20:11,582 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:20:11,692 - INFO - Driver [/home/gms/.wdm/drivers/chromedriver/linux64/136.0.7103.113/chromedriver-linux64/chromedriver] found in cache
+2026-03-04 17:20:12,275 - INFO - Starting test_product_add
+2026-03-04 17:20:12,275 - INFO - Loading home page
+2026-03-04 17:20:17,320 - INFO - Navigating to products page
+2026-03-04 17:20:17,321 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-04 17:20:21,870 - INFO - Click successful
+2026-03-04 17:20:21,870 - INFO - Adding product to cart: blue top
+2026-03-04 17:20:21,870 - INFO - Clicking element: ('tag name', 'body')
+2026-03-04 17:20:21,955 - INFO - Click successful
+2026-03-04 17:20:21,955 - INFO - Entering text 'blue top' into ('id', 'search_product')
+2026-03-04 17:20:22,071 - INFO - Clicking element: ('id', 'submit_search')
+2026-03-04 17:20:25,484 - INFO - Click successful
+2026-03-04 17:20:25,484 - INFO - Clicking element: ('xpath', "//div[@class='productinfo text-center']//a[@class='btn btn-default add-to-cart'][normalize-space()='Add to cart']")
+2026-03-04 17:20:25,620 - INFO - Click successful
+2026-03-04 17:20:25,621 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Continue Shopping')]")
+2026-03-04 17:20:27,287 - INFO - Click successful
+2026-03-04 17:20:27,287 - INFO - Completed test_product_add
+2026-03-04 17:24:46,888 - INFO - xdist worker is: gw1
+2026-03-04 17:24:46,889 - INFO - xdist worker is: gw2
+2026-03-04 17:24:46,889 - INFO - ====== WebDriver manager ======
+2026-03-04 17:24:46,889 - INFO - ====== WebDriver manager ======
+2026-03-04 17:24:46,889 - INFO - xdist worker is: gw0
+2026-03-04 17:24:46,889 - INFO - ====== WebDriver manager ======
+2026-03-04 17:24:46,936 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:46,936 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:46,936 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:47,052 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:47,052 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:47,376 - INFO - There is no [linux64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2026-03-04 17:24:47,376 - INFO - There is no [linux64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2026-03-04 17:24:47,376 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:47,376 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:47,641 - INFO - WebDriver version 136.0.7103.113 selected
+2026-03-04 17:24:47,644 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:24:47,644 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:24:48,196 - INFO - Driver downloading response is 200
+2026-03-04 17:24:50,199 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:24:50,522 - INFO - Driver has been saved in cache [/home/gms/.wdm/gw0/drivers/chromedriver/linux64/136.0.7103.113]
+2026-03-04 17:24:55,111 - INFO - Clicking element: ('link text', 'Signup / Login')
+2026-03-04 17:24:58,226 - INFO - Click successful
+2026-03-04 17:24:58,226 - INFO - Entering text 'mhariharan165@gmail.com' into ('xpath', "//input[@placeholder='Email Address']")
+2026-03-04 17:24:58,316 - INFO - Entering text '8825911487@Hari' into ('xpath', "//input[@placeholder='Password']")
+2026-03-04 17:24:58,422 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Login')]")
+2026-03-04 17:24:59,494 - WARNING - Click intercepted, using JS click
+2026-03-04 17:27:01,955 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:27:02,062 - INFO - There is no [linux64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2026-03-04 17:27:02,062 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:27:02,111 - INFO - WebDriver version 136.0.7103.113 selected
+2026-03-04 17:27:02,114 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:27:02,114 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:27:02,457 - INFO - Driver downloading response is 200
+2026-03-04 17:27:08,598 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:27:08,851 - INFO - Driver has been saved in cache [/home/gms/.wdm/gw2/drivers/chromedriver/linux64/136.0.7103.113]
+2026-03-04 17:27:13,102 - INFO - Clicking element: ('link text', 'Cart')
+2026-03-04 17:27:16,448 - INFO - Click successful
+2026-03-04 17:27:16,448 - INFO - Clicking element: ('xpath', "//a[contains(text(),'Proceed')]")
+2026-03-04 17:27:26,828 - ERROR - Element not clickable: ('xpath', "//a[contains(text(),'Proceed')]")
+2026-03-04 17:29:17,795 - INFO - WebDriver version 136.0.7103.113 selected
+2026-03-04 17:29:17,799 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:29:17,799 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-04 17:29:18,063 - INFO - Driver downloading response is 200
+2026-03-04 17:29:22,792 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-04 17:29:23,076 - INFO - Driver has been saved in cache [/home/gms/.wdm/gw1/drivers/chromedriver/linux64/136.0.7103.113]
+2026-03-04 17:29:23,619 - INFO - Starting test_product_add
+2026-03-04 17:29:23,619 - INFO - Loading home page
+2026-03-04 17:29:26,994 - INFO - Navigating to products page
+2026-03-04 17:29:26,994 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-04 17:29:32,236 - INFO - Click successful
+2026-03-04 17:29:32,237 - INFO - Adding product to cart: blue top
+2026-03-04 17:29:32,237 - INFO - Clicking element: ('tag name', 'body')
+2026-03-04 17:29:32,324 - INFO - Click successful
+2026-03-04 17:29:32,324 - INFO - Entering text 'blue top' into ('id', 'search_product')
+2026-03-04 17:29:32,449 - INFO - Clicking element: ('id', 'submit_search')
+2026-03-04 17:29:33,576 - INFO - Click successful
+2026-03-04 17:29:33,577 - INFO - Clicking element: ('xpath', "//div[@class='productinfo text-center']//a[@class='btn btn-default add-to-cart'][normalize-space()='Add to cart']")
+2026-03-04 17:29:33,676 - INFO - Click successful
+2026-03-04 17:29:33,676 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Continue Shopping')]")
+2026-03-04 17:29:34,301 - INFO - Click successful
+2026-03-04 17:29:34,301 - INFO - Completed test_product_add
+2026-03-05 12:28:15,661 - INFO - xdist worker is: gw0
+2026-03-05 12:28:15,662 - INFO - ====== WebDriver manager ======
+2026-03-05 12:28:15,662 - INFO - xdist worker is: gw1
+2026-03-05 12:28:15,662 - INFO - xdist worker is: gw2
+2026-03-05 12:28:15,662 - INFO - ====== WebDriver manager ======
+2026-03-05 12:28:15,662 - INFO - ====== WebDriver manager ======
+2026-03-05 12:28:15,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:15,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:15,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:27,695 - INFO - ====== WebDriver manager ======
+2026-03-05 12:28:27,743 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:34,129 - INFO - ====== WebDriver manager ======
+2026-03-05 12:28:34,174 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:34,270 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:34,366 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:34,599 - INFO - WebDriver version 136.0.7103.113 selected
+2026-03-05 12:28:34,602 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-05 12:28:34,602 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-05 12:28:34,999 - INFO - Driver downloading response is 200
+2026-03-05 12:28:35,864 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-05 12:28:36,091 - INFO - Driver has been saved in cache [/home/gms/.wdm/drivers/chromedriver/linux64/136.0.7103.113]
+2026-03-05 12:28:40,061 - INFO - Clicking element: ('link text', 'Signup / Login')
+2026-03-05 12:28:41,184 - INFO - Click successful
+2026-03-05 12:28:41,184 - INFO - Entering text 'mhariharan165@gmail.com' into ('xpath', "//input[@placeholder='Email Address']")
+2026-03-05 12:28:41,245 - INFO - Entering text '8825911487@Hari' into ('xpath', "//input[@placeholder='Password']")
+2026-03-05 12:28:41,371 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Login')]")
+2026-03-05 12:28:44,724 - INFO - Click successful
+2026-03-05 12:28:44,727 - INFO - Starting test_product_add
+2026-03-05 12:28:44,728 - INFO - Loading home page
+2026-03-05 12:28:47,021 - INFO - Navigating to products page
+2026-03-05 12:28:47,022 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-05 12:28:48,408 - INFO - Click successful
+2026-03-05 12:28:48,409 - INFO - Adding product to cart: blue top
+2026-03-05 12:28:48,409 - INFO - Clicking element: ('tag name', 'body')
+2026-03-05 12:28:48,519 - INFO - Click successful
+2026-03-05 12:28:48,519 - INFO - Entering text 'blue top' into ('id', 'search_product')
+2026-03-05 12:28:48,568 - INFO - Clicking element: ('id', 'submit_search')
+2026-03-05 12:28:49,638 - INFO - Click successful
+2026-03-05 12:28:49,638 - INFO - Clicking element: ('xpath', "//div[@class='productinfo text-center']//a[@class='btn btn-default add-to-cart'][normalize-space()='Add to cart']")
+2026-03-05 12:28:49,730 - INFO - Click successful
+2026-03-05 12:28:49,730 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Continue Shopping')]")
+2026-03-05 12:28:50,362 - INFO - Click successful
+2026-03-05 12:28:50,362 - INFO - Completed test_product_add
+2026-03-05 12:28:51,910 - INFO - Clicking element: ('link text', 'Cart')
+2026-03-05 12:28:53,193 - INFO - Click successful
+2026-03-05 12:28:53,193 - INFO - Clicking element: ('xpath', "//a[contains(text(),'Proceed')]")
+2026-03-05 12:28:54,544 - INFO - Click successful
+2026-03-05 12:28:54,544 - INFO - Clicking element: ('css selector', "a[href*='payment']")
+2026-03-05 12:28:55,434 - INFO - Click successful
+2026-03-09 13:01:07,636 - INFO - ====== WebDriver manager ======
+2026-03-09 13:01:22,795 - INFO - ====== WebDriver manager ======
+2026-03-09 13:01:23,463 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:01:23,609 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:01:23,777 - INFO - There is no [linux64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-03-09 13:01:23,778 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:01:23,959 - INFO - Getting latest mozilla release info for v0.36.0
+2026-03-09 13:01:24,456 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2026-03-09 13:01:24,966 - INFO - Driver downloading response is 200
+2026-03-09 13:01:25,092 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:01:25,346 - INFO - Driver has been saved in cache [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2026-03-09 13:04:21,156 - INFO - ====== WebDriver manager ======
+2026-03-09 13:04:21,583 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:04:21,926 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:04:22,117 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:05:55,827 - INFO - ====== WebDriver manager ======
+2026-03-09 13:05:56,233 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:05:56,395 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:05:56,580 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:08:24,544 - INFO - ====== WebDriver manager ======
+2026-03-09 13:08:24,858 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:08:25,049 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:08:25,232 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:09:22,445 - INFO - ====== WebDriver manager ======
+2026-03-09 13:09:22,524 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-09 13:09:41,155 - INFO - ====== WebDriver manager ======
+2026-03-09 13:09:41,200 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-09 13:09:41,285 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-09 13:09:41,379 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-09 13:09:41,641 - INFO - WebDriver version 136.0.7103.113 selected
+2026-03-09 13:09:41,644 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-09 13:09:41,644 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/linux64/chromedriver-linux64.zip
+2026-03-09 13:09:42,117 - INFO - Driver downloading response is 200
+2026-03-09 13:09:45,655 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-09 13:09:45,963 - INFO - Driver has been saved in cache [/home/gms/.wdm/drivers/chromedriver/linux64/136.0.7103.113]
+2026-03-09 13:09:49,162 - INFO - Clicking element: ('link text', 'Signup / Login')
+2026-03-09 13:09:51,299 - INFO - Click successful
+2026-03-09 13:09:51,299 - INFO - Entering text 'mhariharan165@gmail.com' into ('xpath', "//input[@placeholder='Email Address']")
+2026-03-09 13:09:51,415 - INFO - Entering text '8825911487@Hari' into ('xpath', "//input[@placeholder='Password']")
+2026-03-09 13:09:51,539 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Login')]")
+2026-03-09 13:09:53,795 - INFO - Click successful
+2026-03-09 13:09:53,796 - INFO - Starting test_product_add
+2026-03-09 13:09:53,796 - INFO - Loading home page
+2026-03-09 13:09:54,879 - INFO - Navigating to products page
+2026-03-09 13:09:54,879 - INFO - Clicking element: ('css selector', "a[href='/products']")
+2026-03-09 13:09:55,942 - INFO - Click successful
+2026-03-09 13:09:55,942 - INFO - Adding product to cart: blue top
+2026-03-09 13:09:55,942 - INFO - Clicking element: ('tag name', 'body')
+2026-03-09 13:09:56,059 - INFO - Click successful
+2026-03-09 13:09:56,059 - INFO - Entering text 'blue top' into ('id', 'search_product')
+2026-03-09 13:09:56,111 - INFO - Clicking element: ('id', 'submit_search')
+2026-03-09 13:09:56,879 - INFO - Click successful
+2026-03-09 13:09:56,879 - INFO - Clicking element: ('xpath', "//div[@class='productinfo text-center']//a[@class='btn btn-default add-to-cart'][normalize-space()='Add to cart']")
+2026-03-09 13:09:56,936 - INFO - Click successful
+2026-03-09 13:09:56,936 - INFO - Clicking element: ('xpath', "//button[contains(text(),'Continue Shopping')]")
+2026-03-09 13:09:57,584 - INFO - Click successful
+2026-03-09 13:09:57,584 - INFO - Completed test_product_add
+2026-03-09 13:09:58,957 - INFO - Clicking element: ('link text', 'Cart')
+2026-03-09 13:09:59,985 - INFO - Click successful
+2026-03-09 13:09:59,985 - INFO - Clicking element: ('xpath', "//a[contains(text(),'Proceed')]")
+2026-03-09 13:10:00,604 - INFO - Click successful
+2026-03-09 13:10:00,604 - INFO - Clicking element: ('css selector', "a[href*='payment']")
+2026-03-09 13:10:01,320 - INFO - Click successful
+2026-03-09 13:11:36,010 - INFO - ====== WebDriver manager ======
+2026-03-09 13:11:37,577 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:11:38,202 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:11:38,390 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:16:26,662 - INFO - ====== WebDriver manager ======
+2026-03-09 13:16:26,669 - INFO - Get LATEST geckodriver version for None firefox
+2026-03-09 13:16:26,953 - INFO - Getting latest mozilla release info for v0.36.0
+2026-03-09 13:16:27,132 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2026-03-09 13:16:27,356 - INFO - Driver downloading response is 200
+2026-03-09 13:16:27,512 - INFO - Get LATEST geckodriver version for None firefox
+2026-03-09 13:16:27,741 - INFO - Get LATEST geckodriver version for None firefox
+2026-03-09 13:16:27,917 - INFO - Driver has been saved in cache [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2026-03-09 13:19:45,102 - INFO - ====== WebDriver manager ======
+2026-03-09 13:19:45,611 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:19:45,824 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:19:45,996 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:21:49,847 - INFO - ====== WebDriver manager ======
+2026-03-09 13:21:50,193 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:21:50,649 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:21:50,820 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:22:02,411 - INFO - ====== WebDriver manager ======
+2026-03-09 13:22:02,735 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:22:02,906 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:22:03,104 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:22:39,893 - INFO - ====== WebDriver manager ======
+2026-03-09 13:22:40,210 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:22:40,591 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:22:40,793 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
+2026-03-09 13:26:33,776 - INFO - ====== WebDriver manager ======
+2026-03-09 13:26:34,044 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:26:34,447 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-03-09 13:26:34,618 - INFO - Driver [/home/gms/.wdm/drivers/geckodriver/linux64/v0.36.0/geckodriver] found in cache
